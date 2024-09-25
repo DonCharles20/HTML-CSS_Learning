@@ -1,0 +1,81 @@
+.subscribe-button {/*label buttons using class to target*/
+    background-color: rgb(204, 0, 0);/*background-image:  The text to the left of the colon is called Css property*/ 
+	color: white;  /* Change color of text */
+	border: none; /* removes border*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+	/*height: 36px; modifies height, forces the button to have a height of 36px*/
+	/*width: 105px; modifies width,forces the button to have a width of 105px*/
+	border-radius: 2px;/*modifies border-radius, how the border of the button looks like*/
+	cursor: pointer;/*modifies cursor, makes it point when on the button*/
+	margin-right:8px;/*modifies the space to the right of the element*/
+    font-family: Arial;/*Changes the style of text*/
+    font-size: 14px;/*modifies the the size of the font*/
+    transition: opacity .2s;/*add a transition animation for opacity(fading out or in), */
+}
+
+.subscribe-button:hover{/*this as a hover to the right of the colon, which makes it so that the buttons have an extra effect when the cursor is over it*/
+    opacity: .8;
+    cursor: pointer;
+}
+
+.subscribe-button:active{/*active, enables and extra added style effect when the button is pressed*/
+    opacity: .5;
+}
+
+
+.join-button{
+    background-color:rgb(255, 255, 255);
+    border-color: rgb(6 95 212);
+    color: rgb(6 95 212);
+    border-style: solid;/*changes how the border of the Button looks like*/
+    border-width: 1px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;/*padding,border,and margin makes up the Css Box model which is how much space it takes up
+    and how far it is away from other elements*/
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color .2s, color .2s; 
+}
+
+.join-button:hover{
+    background-color:rgb(6 95 212);
+    color:white;  
+    
+}
+
+.join-button:active{
+    opacity: .7;
+}
+
+.tweet-button{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow .15s;
+    vertical-align: top;
+}
+
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,.15);/*creates a shadow behind the button, this also uses rgba which adds a color along with the opcacity*/
+}
+
+.tweet-button:active{
+    opacity:.7;
+}

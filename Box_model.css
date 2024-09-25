@@ -1,0 +1,84 @@
+.next{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 4px;
+}
+.back{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 4px;   
+}
+
+.pgnum{
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.stretch{
+    color: white;
+    background-color: rgb(6, 152, 48);
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: padding-top 1s,
+    padding-bottom 1s, 
+    padding-left 1s,
+    padding-right 1s;
+    cursor: pointer;
+}
+
+.stretch:hover{
+    cursor: pointer;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+
+}
+
+.shadow{
+    color: white;
+    background-color:  rgb(6, 152, 48);;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.15);
+    cursor: pointer;
+}
+
+.shadow:active{
+    cursor: pointer;
+    box-shadow: none;
+    
+}
+
+.num{
+    color: white;
+    background-color: rgb(6, 152, 48);;
+    border: none;
+    font-size: 18px;;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: padding .15s, margin .15s;
+}
+
+.num:hover{
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
